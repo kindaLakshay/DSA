@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# --custom .in files
+outputf.in
+inputf.in
