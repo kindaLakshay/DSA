@@ -33,3 +33,5 @@
 
 # --custom .in files
 *.in
+*.in
+Array_maxnumber
