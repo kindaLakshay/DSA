@@ -9,3 +9,5 @@
 tester.cpp
 *.in
 *.in
+inputf.in
+outputf.in
