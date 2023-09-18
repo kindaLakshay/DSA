@@ -25,7 +25,7 @@ int main(){
     	for(int j=0; j<rows; j++){
     		cin>>arr[i][j];
     	}
-    }
+    }cout<<endl;
 
     // printing
     for(int i=0; i<rows; i++){
