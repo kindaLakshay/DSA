@@ -1,4 +1,5 @@
 // https://imgur.com/a/aaDxe81
+//  only one unique in whole array, others double, find the unique
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -38,6 +39,4 @@ int main()
     int uniqueElement = findUnique(arr);
     cout<<"the uniqueElement is: "<<uniqueElement;
 
-
-    
 }
