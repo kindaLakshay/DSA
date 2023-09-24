@@ -1,9 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int num = 5;
-    cout<<num<<endl;
-
-    cout<<&num<<endl;
+void print(int *p){
+    cout << *p <<endl;
 }
+
+void update(int *p){
+    *p = *p + 1;
+}
+
+int main(){
+    int value = 5;
+    int *p = &value;
+
+    cout<<"before: "<< *p << endl;
+    update(p);
+     
+    print(p);
+}
+
+
+
+
+
