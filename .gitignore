@@ -11,3 +11,4 @@ tester.cpp
 *.in
 inputf.in
 outputf.in
+Array_ExtremePoint.out
